@@ -1,0 +1,180 @@
+.aboutimg {
+    width: 70%;
+    height: 500px!important;
+  }
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nothing {
+    text-align : left;
+}
+
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align : center;
+}
+.wrap{
+    background-color: rgb(53, 51, 51);
+    padding: 1%;
+    width: 50%;
+    margin: 0 auto;
+    color:white;
+}
+.wrapup{
+    background-color: rgb(53, 51, 51);
+    padding: 1%;
+    width: 100%;
+    margin: 0 auto;
+    color:white;
+}
+.menu-center{
+    color: solid white;
+    text-align : right;
+}
+.tbl-full{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding:1%;
+}
+/* .card-full{
+    border:black;
+    border-width: 2px;
+} */
+.tbl-30{
+    width: 30%;
+}
+.btn-primary{
+    /* background-color: #4cdbbf; */
+    background-color: #0275d8;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color: solid white;
+    margin-left: 80%;
+}
+
+.btn-primary:hover{
+    background-color: #37b8d8;
+}
+.btn-third{
+    /* background-color: #4cdbbf; */
+    background-color: #449ce4;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color: solid black;
+    margin-left: 90%;
+}
+.btn-third:hover{
+    background-color: #37b8d8;
+}
+.btn-fourth{
+    /* background-color: #4cdbbf; */
+    background-color: #f54d5b;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color: solid white;
+    margin-left: 90%;
+}
+.btn-fourth:hover{
+    background-color: #ec4f4f;
+}
+.btn-secondary{
+    background-color: #0275d8;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+    color: solid black;
+}
+.btn-secondary:hover{
+    background-color: #37b8d8;
+}
+.profile{
+    float:left;
+    padding:15px;
+    margin-right:50px;
+    text-align: justify;
+    width: 350px;
+}
+/* .line{
+    border-left: 2px solid rgb(51, 49, 49);
+    height: 450px;
+    position: absolute;
+    left: 10%;
+    margin-right: 60%;
+    top: 0;
+  } */
+.card{
+        height: 450px; 
+        width: auto; 
+}
+/* CSS for menu */
+.menu{
+    border-bottom: 1px solid rgb(145, 137, 137);
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+   text-decoration: none;
+   color: white;
+   /* color: #212325; */
+}
+.menu ul li a:hover{
+    color: lightblue;
+ }
+ /* CSS for main content */
+ .main-content{
+     background-color: solid white;
+    border-bottom: 1px solid rgb(145, 137, 137);
+    /* height: 100px;  */
+    padding:3% 0;                     
+}
+.second-content{
+    background-color: #e2e8eb;
+   border-bottom: 1px solid rgb(145, 137, 137);
+   /* height: 100px;  */
+   padding:2% 0;                     
+}
+.extra-content{
+    background-image: url("W1.jpg");
+    background-color: #ffffff;
+    border-bottom: 1px solid rgb(44, 42, 42);
+    /* height: 100px;  */
+    padding:3% 0;
+    box-shadow: 0px 0px 10px 2px grey;
+}
+.admin-panel{
+    background-color: #a7adad;
+   border-bottom: 1px solid rgb(145, 137, 137);
+   /* height: 100px;  */
+   padding:3% 0; 
+   width: 50% 0;                    
+}
+/* CSS for footer */
+.footer{
+    background-color: rgb(53, 51, 51);
+    height: 80;
+    /* position: bottom; */
+    margin-top: 42%;
+}
